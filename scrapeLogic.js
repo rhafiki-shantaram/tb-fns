@@ -4,7 +4,7 @@ const axios = require('axios');
 
 const scrapeLogic = async () => {
     const browser = await puppeteer.launch({
-        headless: false,
+        headless: true,
         args: [
             "--disable-setuid-sandbox",
             "--no-sandbox",
