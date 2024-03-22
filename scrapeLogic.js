@@ -26,7 +26,7 @@ const scrapeLogic = async () => {
         await page.waitForSelector('#userName', { visible: true });
         await page.type('#userName', 'LM607');
         await page.waitForSelector('#userPass', { visible: true });
-        await page.type('#userPass', '123456');
+        await page.type('#userPass', 'Tiktok666');
         await page.waitForSelector('#loginSubmit', { visible: true });
 
         // Click and wait for navigation to complete
